@@ -1,4 +1,6 @@
-  run_Analysis = function() {
+library(dplyr)
+
+run_Analysis = function() {
   # Download folder
   download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","wearable.zip")
   # Unzip folder
